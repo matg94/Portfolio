@@ -1,0 +1,28 @@
+Final Project Info File
+Mathieu Gautron
+
+The game was created to use a PS4 Dualshock controller as input.
+It should work with Xbox controllers as well.
+
+Start to pause / unpause the game.
+Select can be used to quit if the game is paused.
+
+R1 used to cast fire spell.
+L1 used to cast illumination spell.
+Left joystick to move around.
+Right joystick to look around (and aim).
+
+World is created with wall locations at random.
+Zombies respawn when far from the player.
+
+Zombies become aware when the player gets closer.
+Zombies attack when the player is very close.
+
+Mana regenerates over time.
+Health does not regenerate.
+
+Zombies get stronger the more are killed (more hp, more damage, and faster movement).
+
+Whenever the game is restarted, the world is recreated.
+
+Game over screen displays number of kills and final score.
