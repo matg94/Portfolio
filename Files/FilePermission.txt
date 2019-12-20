@@ -1,5 +1,0 @@
-Files/Account.txt:ADMIN
-Files/FilePermission.txt:ADMIN
-test_user_file:test_user
-test_public_file:ALL
-test_user_file_two:test_user_two
