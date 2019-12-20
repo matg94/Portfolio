@@ -1,0 +1,30 @@
+Mathieu Gautron
+Solar System Simulator
+
+The Solar System Simulator program attempts to simulate the solar system as accurately as possible.
+
+All the planets (and Pluto) are included.
+
+// Input
+
+Arrow keys can be used to change the focus of the screen.
+Space bar can be used to pause/play the simulation.
+Scroll wheel can be used to zoom in and out.
+
+// Info
+
+At starting positions, the planets are placed randomly in the space. They do not start at their current actual positions relative to each other.
+
+The starting altitude (distance from the sun) is set as the orbit's apoapsis.
+The starting velocity is set as the minimum velocity (as it would be at apoapsis).
+This allows for an accurate depiction of the actual orbit (as the averages would give a perfect circular orbit).
+
+The periapse's altitude is then calculated, so that an accurate orbital period can be calculated as well.
+This is used to limit the trail effect's overlap.
+
+The scale at which the planets are drawn is not related to their actual size.
+Time is sped up by a factor of 1,000,000.
+
+The code has a random solar system generator which can be set in code (still under construction).
+The code also has a simulation of the earth, the moon and the sun. This can be set in code as well (still under construction).
+The code is yet to be optimized.

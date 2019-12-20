@@ -1,0 +1,3 @@
+Files/Account.txt:ADMIN
+Files/FilePermission.txt:ADMIN
+thisfilejack:ALL
