@@ -140,7 +140,7 @@ def get_filenames_of(token, username):
     for line in f:
         dat = line.split(":")
         print(dat[1].rstrip() + " " + username)
-        if (dat[1].rstrip() == username or dat[1] == "ALL" or (userPerm == "ADMIN" and username == get_username_from_token(token))):
+        if (dat[1].rstrip() == username or dat[1].rstrip() == "ALL" or (userPerm == "ADMIN" and username == get_username_from_token(token))):
             files.append(dat[0])
     print(files)
     f.close()

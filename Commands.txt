@@ -1,0 +1,41 @@
+Current Commands:
+
+Login:
+	*username*:*password*
+		response token, or -1
+
+all commands:
+	*token* *cmd* *args*
+
+Admin only:
+	mkuser *username* *password* *permissions (USER or ADMIN)*
+		- Creates a new user
+	rmuser *username*
+		- Deletes a user
+	lsacc
+		- Lists all accounts
+	ls *username*
+		- Lists a specific user's files
+	perm *username*
+		- Lists a specific user's permissions
+	
+all users:
+	echo *text*
+	head *filename* *number of lines*
+	createf *filename* *public (1 or 0)*
+		- Creates a file in user's folder
+	writef *filename* *text*
+		- Writes to a file
+	delf *filename*
+		- Deletes a file
+	ls
+		- Lists the user's files.
+	lson
+		- Lists online users
+	perm
+		- Displays the user's permissions
+	permf *filename*
+		- Displays a file's permissions
+	logout
+	
+	

@@ -6,7 +6,7 @@ sock = socket.socket(socket.AF_INET, # Internet
     socket.SOCK_STREAM) # TCP
 
 def login():
-    sock.connect(("82.38.127.71", 35565))
+    sock.connect(("192.168.0.14", 35565))
     username = input("Enter username: ")
     pwd = input("Password: ")
     sock.send(username.encode() + b":" + pwd.encode())
@@ -28,7 +28,7 @@ def send_message(token, message):
 
 def commandPrompt(token):
     while True:
-        msg = input("")
+        msg = input(">")
         send_message(token, msg)
     
 login()
